@@ -4,7 +4,6 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>begin</artifactId>
-    <version>${project.version}</version>
     <packaging>jar</packaging>
 
     <name>begin</name>
@@ -19,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
