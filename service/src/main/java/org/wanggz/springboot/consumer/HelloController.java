@@ -1,4 +1,4 @@
-package org.wanggz.springboot;
+package org.wanggz.springboot.consumer;
 
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
@@ -20,9 +20,16 @@ public class HelloController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String index() {
+
         ServiceInstance instance = client.getLocalServiceInstance();
         logger.info("/hello, host : " + instance.getHost() + ", service_id : " + instance.getServiceId());
-        return JSON.toJSONString(instance.getMetadata());
+        String ret = JSON.toJSONString(instance.getMetadata());
+
+        if ("{}".equals(ret)) {
+            return "/hello, host : " + instance.getHost() + ", service_id : " + instance.getServiceId();
+        } else {
+            return ret;
+        }
     }
 
 }

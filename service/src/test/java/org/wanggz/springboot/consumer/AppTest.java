@@ -1,4 +1,4 @@
-package org.wanggz.springboot;
+package org.wanggz.springboot.consumer;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
