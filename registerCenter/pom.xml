@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.wanggz.begin</groupId>
-    <artifactId>app</artifactId>
+    <artifactId>registerCenter</artifactId>
     <packaging>jar</packaging>
 
-    <name>app</name>
+    <name>registerCenter</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
