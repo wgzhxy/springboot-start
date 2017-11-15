@@ -20,7 +20,12 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
 
         <dependency>
@@ -43,6 +48,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.33</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.3.7.RELEASE</version>
         </dependency>
     </dependencies>
 
