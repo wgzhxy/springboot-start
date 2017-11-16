@@ -2,9 +2,21 @@ package org.wanggz.springboot.biz.customer;
 
 public class Customer {
 
+    /**
+     * 名字
+     */
     String name;
+    /**
+     * 昵称
+     */
     String nickName;
+    /**
+     * 地址
+     */
     String address;
+    /**
+     * 年龄
+     */
     int age;
 
     public String getName() {
