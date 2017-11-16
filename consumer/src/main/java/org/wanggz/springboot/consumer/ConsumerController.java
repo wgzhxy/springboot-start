@@ -13,7 +13,7 @@ public class ConsumerController {
     @Autowired
     RestTemplate restTemplate;
 
-    final String interfaceUri = "http://HELLO-SERVICE/hello";
+    final String interfaceUri = "http://SERVICE/hello";
 
     @RequestMapping(value = "/ribbon-consumer", method = RequestMethod.GET)
     public String helloConsumer() {
