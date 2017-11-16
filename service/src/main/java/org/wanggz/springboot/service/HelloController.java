@@ -1,4 +1,4 @@
-package org.wanggz.springboot.consumer;
+package org.wanggz.springboot.service;
 
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;

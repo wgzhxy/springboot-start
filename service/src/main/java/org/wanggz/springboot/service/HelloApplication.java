@@ -1,4 +1,4 @@
-package org.wanggz.springboot.consumer;
+package org.wanggz.springboot.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

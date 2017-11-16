@@ -1,4 +1,4 @@
-package org.wanggz.begin.app;
+package org.wanggz.begin.register_center;
 
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;

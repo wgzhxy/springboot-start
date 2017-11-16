@@ -1,4 +1,4 @@
-package org.wanggz.springboot;
+package org.wanggz.springboot.hystrix;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
