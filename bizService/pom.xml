@@ -19,6 +19,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.33</version>
+        </dependency>
+
         <!-- Add typical dependencies for a web application -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
