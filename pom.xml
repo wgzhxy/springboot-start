@@ -18,6 +18,7 @@
     </parent>
 
     <modules>
+        <module>app</module>
         <module>registerCenter</module>
         <module>service</module>
         <module>consumer</module>
