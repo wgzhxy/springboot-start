@@ -1,2 +1,6 @@
 -javaagent:/Users/guangzhong.wgz/tmp/springboot-start/hotswap.jar
 -Dhotcode.confFile=/Users/guangzhong.wgz/tmp/springboot-start/workspace.xml
+
+注意事项:
+
+如果ide自动编译不通过，可以手动编译
