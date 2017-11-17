@@ -26,7 +26,7 @@ public class CustomerController {
         return customer;
     }
 
-    @RequestMapping(value = "/getCustomerXml", produces = "application/xml;charset=UTF-8")
+    @RequestMapping(value = "/getCustomerXml", produces = {"application/xml;charset=UTF-8"})
     @ResponseBody
     public Customer getCustomerForXml() {
         Customer customer = new Customer();
@@ -37,9 +37,12 @@ public class CustomerController {
         return customer;
     }
 
-    @RequestMapping(value = "/{params_1}/{params_2}/getCustomerXml", produces = "application/xml;charset=UTF-8")
+    @RequestMapping(value = "/{params_1}/{params_2}/getXml", produces = {"application/xml;charset=UTF-8"})
     @ResponseBody
-    public String getString(@PathVariable String params_1, @PathVariable String params_2) {
-        return "url -> params_1 : " + params_1 + "--- : params_2 : " + params_2;
+    public Customer getString(@PathVariable String params_1, @PathVariable String params_2) {
+        Customer customer = new Customer();
+        customer.setNickName(params_2);
+        customer.setName(params_1);
+        return customer;
     }
 }
