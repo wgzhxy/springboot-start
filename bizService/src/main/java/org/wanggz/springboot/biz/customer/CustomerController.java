@@ -10,6 +10,6 @@ public class CustomerController {
 
     @RequestMapping("/customer")
     public String home() {
-        return "Hello World!";
+        return "Hello World，Good One!";
     }
 }

@@ -1,0 +1,2 @@
+-javaagent:/Users/guangzhong.wgz/tmp/springboot-start/hotswap.jar
+-Dhotcode.confFile=/Users/guangzhong.wgz/tmp/springboot-start/workspace.xml

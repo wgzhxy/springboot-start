@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <!-- packages used to filter classes, then container start faster! -->
+    <deploy packages="org.wanggz.springboot">
+        <mapping src="bizService-0.0.1-SNAPSHOT.jar" dest="bizService/target/classes"/>
+    </deploy>
+    <plugins>
+        <plugin name="spring_plugin"></plugin>
+        <plugin name="ibatis_plugin"></plugin>
+        <plugin name="webx3_plugin"></plugin>
+        <plugin name="sofa_plugin"></plugin>
+    </plugins>
+</workspace>
