@@ -16,7 +16,6 @@ public class ConsumerApplication {
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
-
     public static void main(String args[]) {
         SpringApplication.run(ConsumerApplication.class, args);
     }
